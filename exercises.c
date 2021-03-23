@@ -80,12 +80,6 @@ Vector * crearVector(int n) {
   Vector* v=malloc(sizeof(Vector)*n);
   v->datos=malloc(sizeof(int)*n);
   v->capacidad=n;
-  for(i=0;i<n;i++){
-    for(j=0;j<n;j++){
-      v[i].datos[j]=0;
-    }
-  }
-
    return v;
 }
 
